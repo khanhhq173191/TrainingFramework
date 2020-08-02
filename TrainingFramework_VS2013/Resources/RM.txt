@@ -1,32 +1,18 @@
-#Models: 4
+#Models: 3
 ID 0
 FILE ../Resources/Models/Woman1.nfg
 ID 1
 FILE ../Resources/Models/Woman2.nfg
 ID 2
 FILE ../Resources/Models/Woman2.nfg
-ID 3
-FILE ../Resources/Models/cube.nfg
-#2D Textures: 9
+#2D Textures: 3
 ID 0
 FILE ../Resources/Textures/Woman1.tga
 ID 1
 FILE ../Resources/Textures/Woman2.tga
 ID 2
 FILE ../Resources/Textures/Woman2.tga
-ID 3
-FILE ../Resources/Textures/Skybox Textures/left.tga
-ID 3
-FILE ../Resources/Textures/Skybox Textures/right.tga
-ID 3
-FILE ../Resources/Textures/Skybox Textures/top.tga
-ID 3 
-FILE ../Resources/Textures/Skybox Textures/bottom.tga
-ID 3
-FILE ../Resources/Textures/Skybox Textures/front.tga
-ID 3
-FILE ../Resources/Textures/Skybox Textures/back.tga
-#Shaders: 4
+#Shaders: 3
 ID 0
 VS ../Resources/Shaders/TriangleShaderVS.vs
 FS ../Resources/Shaders/TriangleShaderFS.fs
@@ -36,6 +22,3 @@ FS ../Resources/Shaders/TriangleShaderFS.fs
 ID 2
 VS ../Resources/Shaders/TriangleShaderVS.vs
 FS ../Resources/Shaders/TriangleShaderFS.fs
-ID 3
-VS ../Resources/Shaders/ShaderVScube1.vs
-FS ../Resources/Shaders/ShaderFScube1.fs

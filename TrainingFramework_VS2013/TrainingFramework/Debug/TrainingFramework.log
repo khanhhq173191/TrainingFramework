@@ -1,93 +1,94 @@
-﻿  stdafx.cpp
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
   Shaders.cpp
   TrainingFramework.cpp
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
   Texture.cpp
   SceneManager.cpp
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(33): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(35): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(37): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(40): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(42): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(45): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(46): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(47): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\scenemanager.cpp(48): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(33): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(35): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(37): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(40): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(42): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(45): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(46): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(47): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\scenemanager.cpp(48): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
   ResourceManager.cpp
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(19): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(33): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(34): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(45): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(48): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(51): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\resourcemanager.cpp(17): warning C4101: 'id': unreferenced local variable
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(34): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(19): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(33): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(39): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(45): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(48): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(51): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\resourcemanager.cpp(17): warning C4101: 'id': unreferenced local variable
   Object.cpp
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
   Model.cpp
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\model.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\model.cpp(22): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\model.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\model.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\model.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\model.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\model.cpp(22): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\model.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\model.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\model.cpp(38): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
   Camera.cpp
-c:\users\han.glschool\documents\khanh.hoquoc\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\documents\github\trainingframework\trainingframework_vs2013\trainingframework\camera.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
   Generating Code...
 Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  TrainingFramework.vcxproj -> C:\Users\han.glschool\Documents\khanh.hoquoc\TrainingFramework_VS2013\\BIN\TrainingFramework.exe
-  TrainingFramework.vcxproj -> C:\Users\han.glschool\Documents\khanh.hoquoc\TrainingFramework_VS2013\\BIN\TrainingFramework.pdb (Full PDB)
+  TrainingFramework.vcxproj -> D:\Documents\GitHub\TrainingFramework\TrainingFramework_VS2013\\BIN\TrainingFramework.exe
