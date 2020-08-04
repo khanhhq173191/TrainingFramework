@@ -55,6 +55,7 @@ public:
 	int m_iNumMoldel;
 	int m_iNumTexture;
 	int m_iNumShaders;
+	int m_iNumCubeTexture;
 	void Init(Matrix view, int ID);
 	
 	void Update(float detalTime, Matrix view);

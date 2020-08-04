@@ -1,13 +1,10 @@
-uniform samplerCube u_texture;
+uniform samplerCube u_samplerCubeMap;
 precision mediump float;
-varying vec4 v_color;
-varying vec2 v_uv;
-varying vec3 v_pos
+
+varying vec3 v_posL;
 
 void main()
 {
-	//gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
-	//gl_FragColor = v_color;
-	vec4 pos4 = vec4(v_pos,0.0);
-	gl_FragColor = textureCube(pos4,v_uv);
+	vec4 pos4 = vec4(v_posL,1.0);
+	gl_FragColor = textureCube(u_samplerCubeMap, pos4.xyz);
 }

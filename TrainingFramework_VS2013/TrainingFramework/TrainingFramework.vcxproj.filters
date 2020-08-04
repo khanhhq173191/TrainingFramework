@@ -226,22 +226,22 @@
     <Image Include="..\Resources\Textures\Woman2.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <Image Include="..\Resources\Textures\Skybox Textures\back.tga">
+    <Image Include="..\Resources\Textures\back.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <Image Include="..\Resources\Textures\Skybox Textures\bottom.tga">
+    <Image Include="..\Resources\Textures\bottom.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <Image Include="..\Resources\Textures\Skybox Textures\front.tga">
+    <Image Include="..\Resources\Textures\front.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <Image Include="..\Resources\Textures\Skybox Textures\left.tga">
+    <Image Include="..\Resources\Textures\left.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <Image Include="..\Resources\Textures\Skybox Textures\right.tga">
+    <Image Include="..\Resources\Textures\right.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <Image Include="..\Resources\Textures\Skybox Textures\top.tga">
+    <Image Include="..\Resources\Textures\top.tga">
       <Filter>Resources\Textures</Filter>
     </Image>
   </ItemGroup>

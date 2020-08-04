@@ -4,17 +4,17 @@
 int Shaders::Init(char * fileVertexShader, char * fileFragmentShader)
 {
 	vertexShader = esLoadShader(GL_VERTEX_SHADER, fileVertexShader);
-	
+	if (fragmentShader == 0)
+	{
+		glDeleteShader(vertexShader);
+		return -2;
+	}
 	if ( vertexShader == 0 )
 		return -1;
 
 	fragmentShader = esLoadShader(GL_FRAGMENT_SHADER, fileFragmentShader);
 
-	if ( fragmentShader == 0 )
-	{
-		glDeleteShader( vertexShader );
-		return -2;
-	}
+
 
 	program = esLoadProgram(vertexShader, fragmentShader);
 
@@ -27,7 +27,7 @@ int Shaders::Init(char * fileVertexShader, char * fileFragmentShader)
 	binormAttribute = glGetAttribLocation(program, "a_binorm");
 	tgtAttribute = glGetAttribLocation(program, "a_tgt");
 	wvpAttribute = glGetUniformLocation(program, "u_wvpMatrix");
-
+	textureCubeAttribute = glGetUniformLocation(program, "u_samplerCubeMap");
 	return 0;
 }
 

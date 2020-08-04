@@ -15,6 +15,7 @@ public:
 	GLint binormAttribute;
 	GLint tgtAttribute;
 	GLint wvpAttribute;
+	GLint textureCubeAttribute;
 
 	int Init(char * fileVertexShader, char * fileFragmentShader);
 	~Shaders();

@@ -152,6 +152,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\Resources\Textures\back.tga" />
+    <Image Include="..\Resources\Textures\bottom.tga" />
     <Image Include="..\Resources\Textures\Bus.tga" />
     <Image Include="..\Resources\Textures\Croco.tga" />
     <Image Include="..\Resources\Textures\Dirt.tga" />
@@ -159,23 +161,21 @@
     <Image Include="..\Resources\Textures\envMap.tga" />
     <Image Include="..\Resources\Textures\fire3.tga" />
     <Image Include="..\Resources\Textures\fire_mask.tga" />
+    <Image Include="..\Resources\Textures\front.tga" />
     <Image Include="..\Resources\Textures\Golitah.tga" />
     <Image Include="..\Resources\Textures\Grass.tga" />
     <Image Include="..\Resources\Textures\heightmap.tga" />
     <Image Include="..\Resources\Textures\House.tga" />
+    <Image Include="..\Resources\Textures\left.tga" />
     <Image Include="..\Resources\Textures\Marine.tga" />
     <Image Include="..\Resources\Textures\NormalMap.tga" />
     <Image Include="..\Resources\Textures\radar.tga" />
+    <Image Include="..\Resources\Textures\right.tga" />
     <Image Include="..\Resources\Textures\Rock.tga" />
     <Image Include="..\Resources\Textures\SCV.tga" />
-    <Image Include="..\Resources\Textures\Skybox Textures\back.tga" />
-    <Image Include="..\Resources\Textures\Skybox Textures\bottom.tga" />
-    <Image Include="..\Resources\Textures\Skybox Textures\front.tga" />
-    <Image Include="..\Resources\Textures\Skybox Textures\left.tga" />
-    <Image Include="..\Resources\Textures\Skybox Textures\right.tga" />
-    <Image Include="..\Resources\Textures\Skybox Textures\top.tga" />
     <Image Include="..\Resources\Textures\Terrain_blendmap_1.tga" />
     <Image Include="..\Resources\Textures\Terrain_blendmap_2.tga" />
+    <Image Include="..\Resources\Textures\top.tga" />
     <Image Include="..\Resources\Textures\Train.tga" />
     <Image Include="..\Resources\Textures\Witch.tga" />
     <Image Include="..\Resources\Textures\Woman1.tga" />

@@ -1,5 +1,6 @@
 ﻿#include "stdafx.h"
 #include "SceneManager.h"
+#include<string.h>
 
 
 SceneManager::SceneManager()
@@ -8,6 +9,7 @@ SceneManager::SceneManager()
 
 void SceneManager::Render()
 {
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	for (int i = 0; i < m_iNumObj; i ++) {
 		
 		m_obj[i]->Render();
@@ -34,7 +36,7 @@ int SceneManager::Init()
 		fscanf(f, "MODEL %d\n", &m_obj[i]->m_iNumMoldel);
 		fscanf(f, "TEXTURES %d \n", &m_obj[i]->m_iNumTexture);
 		fscanf(f, "TEXTURE %d\n", &id);
-		fscanf(f, "CUBETEXTURES %d\n", &id);
+		fscanf(f, "CUBETEXTURES %d\n", &m_obj[i]->m_iNumCubeTexture);
 		fscanf(f, "CUBETEX %d\n", &id);
 		fscanf(f, "SHADER %d\n", &m_obj[i]->m_iNumShaders);
 		fscanf(f, "POSITION %f, %f, %f\n", &m_obj[i]->m_xTranslation, &m_obj[i]->m_yTranslation, &m_obj[i]->m_zTranslation);
@@ -56,24 +58,44 @@ int SceneManager::Init()
 				m_obj[i]->m_model->Init(m_RM->m_cModelFile[j]);
 			}
 		}
-		m_obj[i]->m_texture = new Texture[m_obj[i]->m_iNumTexture];
-		//m_obj[i]->m_texture = new Texture();
-		for (int j = 0; j < m_RM->m_iNumTexture; j++)
-		{
-			if (m_obj[i]->m_ID == m_RM->m_iTextureID[j]) {
-				m_obj[i]->m_texture[texture].Init(m_RM->m_cTextureFile[j]);
-				texture++;//Bien dem texture
+		if (m_obj[i]->m_iNumTexture != 0) {
+			m_obj[i]->m_texture = new Texture[m_obj[i]->m_iNumTexture];
+			//m_obj[i]->m_texture = new Texture();
+			for (int j = 0; j < m_RM->m_iNumTexture; j++)
+			{
+				if (m_obj[i]->m_ID == m_RM->m_iTextureID[j]) {
+					m_obj[i]->m_texture[texture].Init(m_RM->m_cTextureFile[j]);
+					texture++;//Bien dem texture
+				}
 			}
+		}
+		if (m_obj[i]->m_iNumCubeTexture != 0) {
+			//m_obj[i]->m_texture = new Texture[6];
+			char**CubeTextureName = new char*[6];
+			for (int n = 0; n < 6; n++) {
+				CubeTextureName[n] = new char[70];
+			}
+			m_obj[i]->m_texture = new Texture[1];
+			for (int j = 0; j < m_RM->m_iNumTexture; j++)
+			{
+				if (m_obj[i]->m_ID == m_RM->m_iTextureID[j]) {
+					//m_obj[i]->m_texture[texture].Init(m_RM->m_cTextureFile[j]);
+					strcpy(CubeTextureName[texture], m_RM->m_cTextureFile[j]);
+					texture++;//Bien dem texture
+				}
+			}
+			m_obj[i]->m_texture[0].CubeTexture(CubeTextureName[0], CubeTextureName[1], CubeTextureName[2], CubeTextureName[3], CubeTextureName[4], CubeTextureName[5]);
 		}
 		texture = 0;//reset bien dem texture
 		for (int j = 0; j < m_RM->m_iNumShaders; j++)
 		{
 			if (m_obj[i]->m_ID == m_RM->m_iShadersID[j]) {
-				m_obj[i]->myShaders.Init(m_RM->m_cVSFile[j], m_RM->m_cFSFile[j]);
+				int a = m_obj[i]->myShaders.Init(m_RM->m_cVSFile[j], m_RM->m_cFSFile[j]);
+				printf("%d \n", a);
 			}
 		}
 	}
-
+	glEnable(GL_DEPTH_TEST);
 	return 0;
 }
 SceneManager::~SceneManager()

@@ -22,15 +22,12 @@ int Init ( ESContext *esContext )
 	
 	//buffer object
 	sce->Init();
-	glEnable(GL_DEPTH_TEST);
 	//creation of shaders and program 
 	return 0;
 }
 
 void Draw ( ESContext *esContext )
 {
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	
 	sce->Render();
 
 	eglSwapBuffers ( esContext->eglDisplay, esContext->eglSurface );

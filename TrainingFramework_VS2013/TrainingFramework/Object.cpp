@@ -77,16 +77,21 @@ void Object::set_perspective() {
 	m_pMatrix.SetPerspective(fov, aspect, nearPlane, farPlane);
 }
 void Object::Render() {
+	
+
 	glUseProgram(myShaders.program);
 	glUniformMatrix4fv(myShaders.wvpAttribute, 1, GL_FALSE, (GLfloat*)m_wvpMatrix.m);
 	m_model->Render(myShaders);
-	for (int i = 0; i < m_iNumTexture; i++) {
-		m_texture[i].Render(myShaders);
+	if (m_iNumTexture != 0) {
+		for (int i = 0; i < m_iNumTexture; i++) {
+			m_texture[i].Render(myShaders);
+		}
 	}
+	if (m_iNumCubeTexture != 0) {
+		m_texture->CubeRender(myShaders);
+	}
+	glDrawArrays(GL_TRIANGLES, 0, 36);
 	glDrawElements(GL_TRIANGLES, m_model->m_iNumIntices, GL_UNSIGNED_INT, 0);
-
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-
-	//m_texture->Render(myShaders);
 }

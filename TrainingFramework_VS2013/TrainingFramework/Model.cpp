@@ -68,11 +68,6 @@ void Model::Render(Shaders myShaders) {
 		glEnableVertexAttribArray(myShaders.uvAttribute);
 		glVertexAttribPointer(myShaders.uvAttribute, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (char*)0 + sizeof(Vector3) * 4);
 	}
-
-	//glDrawArrays(GL_TRIANGLES, 0,obj->m_moldel->m_iNumVertex );
-
-	
-	
 }
 void Model::Update(float deltaTime) {
 
