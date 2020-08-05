@@ -50,4 +50,5 @@ void ResourceManager::Init()
 		fscanf(f, "FS %s\n", &File);
 		strcpy(m_cFSFile[i] , File);
 	}
+	fclose(f);
 }

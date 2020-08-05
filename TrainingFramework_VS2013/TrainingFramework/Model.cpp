@@ -52,9 +52,6 @@ void Model::Init(char*File)
 	
 }
 void Model::Render(Shaders myShaders) {
-	
-	
-
 	glBindBuffer(GL_ARRAY_BUFFER, vboId);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iboId);
 
@@ -68,10 +65,11 @@ void Model::Render(Shaders myShaders) {
 		glEnableVertexAttribArray(myShaders.uvAttribute);
 		glVertexAttribPointer(myShaders.uvAttribute, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (char*)0 + sizeof(Vector3) * 4);
 	}
+	glGenBuffers(0, &vboId);
+	glGenBuffers(0, &iboId);
 }
 void Model::Update(float deltaTime) {
 
-	//Render();
 }
 
 

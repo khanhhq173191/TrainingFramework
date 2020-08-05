@@ -35,7 +35,7 @@ int SceneManager::Init()
 		fscanf(f, "ID %d\n", &m_aObjID[i]);
 		fscanf(f, "MODEL %d\n", &m_obj[i]->m_iNumMoldel);
 		fscanf(f, "TEXTURES %d \n", &m_obj[i]->m_iNumTexture);
-		fscanf(f, "TEXTURE %d\n", &id);
+		fscanf(f, "TEXTURE %d\n", &m_obj[i]->m_textID);
 		fscanf(f, "CUBETEXTURES %d\n", &m_obj[i]->m_iNumCubeTexture);
 		fscanf(f, "CUBETEX %d\n", &id);
 		fscanf(f, "SHADER %d\n", &m_obj[i]->m_iNumShaders);

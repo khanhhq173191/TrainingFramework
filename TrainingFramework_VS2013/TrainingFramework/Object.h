@@ -17,6 +17,7 @@ public:
 	Model* m_model;
 	Texture *m_texture;
 	int m_ID;
+	int m_textID;
 
 	Object();
 	~Object();

@@ -1,19 +1,13 @@
 #Models: 4
+ID 3
+FILE ../Resources/Models/cube.nfg
 ID 0
 FILE ../Resources/Models/Woman1.nfg
 ID 1
 FILE ../Resources/Models/Woman2.nfg
 ID 2
 FILE ../Resources/Models/Woman2.nfg
-ID 3
-FILE ../Resources/Models/cube.nfg
 #2D Textures: 9
-ID 0
-FILE ../Resources/Textures/Woman1.tga
-ID 1
-FILE ../Resources/Textures/Woman2.tga
-ID 2
-FILE ../Resources/Textures/Woman2.tga
 ID 3
 FILE ../Resources/Textures/left.tga
 ID 3
@@ -26,7 +20,16 @@ ID 3
 FILE ../Resources/Textures/front.tga
 ID 3
 FILE ../Resources/Textures/back.tga
+ID 0
+FILE ../Resources/Textures/Woman1.tga
+ID 1
+FILE ../Resources/Textures/Woman2.tga
+ID 2
+FILE ../Resources/Textures/Woman2.tga
 #Shaders: 4
+ID 3
+VS ../Resources/Shaders/ShaderVScube1.vs
+FS ../Resources/Shaders/ShaderFScube1.fs
 ID 0
 VS ../Resources/Shaders/TriangleShaderVS.vs
 FS ../Resources/Shaders/TriangleShaderFS.fs
@@ -36,7 +39,5 @@ FS ../Resources/Shaders/TriangleShaderFS.fs
 ID 2
 VS ../Resources/Shaders/TriangleShaderVS.vs
 FS ../Resources/Shaders/TriangleShaderFS.fs
-ID 3
-VS ../Resources/Shaders/ShaderVScube1.vs
-FS ../Resources/Shaders/ShaderFScube1.fs
+
 
